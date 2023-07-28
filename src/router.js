@@ -6,10 +6,6 @@ const routes = [
     {
         path:'/',
         component: Home
-    },
-    {
-        path:'/datatable',
-        component: Datatable
     }
 ]
 
