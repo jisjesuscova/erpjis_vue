@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from './components/Home.vue'
-import Datatable from "./components/Datatable.vue";
 
 const routes = [
     {
