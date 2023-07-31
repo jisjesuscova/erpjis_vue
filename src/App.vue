@@ -16,6 +16,7 @@
 </template>
 
 <script>
+import { ref } from 'vue';
 import Header from './components/Header.vue';
 import Siderbar from './components/Sidebar.vue';
 import Home from './components/Home.vue';
@@ -26,10 +27,11 @@ export default {
   name: 'App',
   setup() {
     // Aquí defines la variable para almacenar el token (puedes obtenerlo del localStorage)
-    const accessToken = localStorage.getItem('accessToken');
+    const accessToken = ref(localStorage.getItem('accessToken') || ''); // Usa el valor predeterminado ''
 
     return {
       accessToken,
+      loading: true,
     };
   },
   components: {
