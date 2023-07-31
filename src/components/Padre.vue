@@ -3,7 +3,7 @@
       <SearchForm />
       
       <div class="flex flex-col pt-10">
-          <div class="-m-1.5 overflow-x-auto">
+          <div class="-m-1.5 overflow-x-auto">2
               <div class="p-1.5 min-w-full inline-block align-middle">
               <div class="border rounded-lg divide-y divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
                   <div class="overflow-hidden">
