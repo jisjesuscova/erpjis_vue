@@ -72,7 +72,6 @@ export default {
     },
     async created() {
       try {
-        // Realizar la llamada a la API utilizando Axios
         const response = await axios.get('http://127.0.0.1:8000/banks/', {
           headers: {
             accept: 'application/json',
